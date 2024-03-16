@@ -15,7 +15,7 @@ const saveCartToLS= (cart)=>{
     const cartStringified = JSON.stringify(cart)
     localStorage.setItem('cart', cartStringified)
 }
-export {addToLS};
+export {addToLS, getStoredCart};
 
 
 
